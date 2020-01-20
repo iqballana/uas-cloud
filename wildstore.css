@@ -1,0 +1,108 @@
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: black;
+    background-size: 100%;
+}
+ 
+.header {
+background-image: url('wildstore.png');
+    padding: 1px;
+    margin: 1px;
+    background-repeat
+    background-size: 100%;
+}
+ .nav {
+    overflow: hidden;
+    background-color: gray;
+}
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.kontenkiri{
+    border: 2px solid white;
+    width: 75%;
+    float: left;
+    margin: 5px;
+    height: 700px;
+    background: white;
+}
+.kontenkiri img{
+    width: 100%;
+}
+.kontentengah{
+    border: 2px solid white;
+    width: 23%;
+    float: left;
+    margin: 5px;
+    height: 343px;
+    background: white;
+
+}
+.kontentengah img{
+    width: 65%
+}
+.kontenkanan{
+    border: 2px solid white;
+    width: 23%;
+    float: left;
+    margin: 5px;
+    height: 343px;
+    background: white;
+}
+    .img {
+    background-color: #aaa;
+    width: 100%;
+    padding: 10px;
+}
+
+    .newarrivals{
+    border: 2px solid white;
+    width: 99%;
+    float: left;
+    margin: 5px;
+    height: 343px;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+    margin:5px;
+    background: white;
+}
+    .card {
+     background-color: white;
+     padding: 5px;
+     margin-top: 10px;
+     background-size: 100px;
+
+}
+footer{
+    clear: both;
+    background-color: red;
+    color: white;
+    text-align: center;
+
+}
+
+.newarrivals .foto img{width: 300px;}
+
+.foto {
+    border: 4px solid black;
+    margin:25px;
+    text-align: center; }
+
+.foto a{
+    border: 1px solid black;
+    padding:10px; color: white;
+    background: red; text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;}
